@@ -17,7 +17,7 @@ describe("Quiz Component", () => {
     ).as("randomQuestion");
   });
 
-  // TODO:
+  
   it("renders the first question correctly", () => {
     cy.mount(<Quiz />);
     cy.get("button").contains("Start Quiz").click();
@@ -25,7 +25,7 @@ describe("Quiz Component", () => {
     cy.get("h2").should("contain", questions[0].question);
   });
 
-  // TODO:
+  
   it("displays the correct answers for the first question", () => {
     cy.mount(<Quiz />);
     cy.get("button").contains("Start Quiz").click();
@@ -38,7 +38,7 @@ describe("Quiz Component", () => {
       cy.get(".alert-secondary").eq(index).should("contain", answer.text);
     });
   });
-  // TODO:
+  
   it("advances to the next question when an answer is selected", () => {
     cy.mount(<Quiz />);
     cy.get("button").contains("Start Quiz").click();

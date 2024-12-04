@@ -83,13 +83,7 @@ Installation
 
     Copy code
 
-    `# In one terminal, start the server:
-    cd server
-    npm start
-
-# In another terminal, start the client:
-    cd client
-    npm start`
+    `npm run start:dev`
 
 * * * * *
 
@@ -185,6 +179,8 @@ Walkthrough Video
 A walkthrough video demonstrating the functionality and testing of this application is available here:
 
 **Tech Quiz Walkthrough Video**
+
+https://drive.google.com/file/d/1PmmpctKEQ81bfniRv-uoLsSAWnKvFq-n/view?usp=sharing
 
 This video covers:
 
